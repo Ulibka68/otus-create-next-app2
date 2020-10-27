@@ -1,3 +1,15 @@
+Вариант 1:
+Кроме того, в вашей папке custom_typings (если есть) вы можете добавить новый файл import-png.d.ts:
+
+
+declare module "*.png" {
+const value: string;
+export default value;
+}
+
+
+для импорта изображений в TS надо установить:
+install requireJS (or was it commonJS)
 
 Заменить старый кусок в 
 \node_modules\next-optimized-images\lib\loaders\responsive-loader.js
