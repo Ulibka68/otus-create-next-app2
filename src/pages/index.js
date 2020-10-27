@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import responsiveImage from "../images/4mb-image.jpg?sizes[]=300,sizes[]=600,sizes[]=1024";
-// import responsiveImage2 from "images/4mb-image.jpg?webp";
-// import responsiveImage from "images/4mb-image.jpg?sizes[]=300,sizes[]=600,sizes[]=1024&format=webp";
-// import responsiveImage from "images/4mb-image.jpg";
-// import responsiveImage from "img/myImage.jpg?sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048";
-// import responsiveImageWebp from 'img/myImage.jpg?sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048&format=webp';
-
+import responsiveImage2 from "../images/4mb-image.jpg?webp";
+// import responsiveImage3 from "../images/4mb-image.jpg?sizes[]=300,sizes[]=600&format=webp";
+// import responsiveImage4 from "../images/4mb-image.jpg?{sizes:[300,800], format: 'webp'}";
+import responsiveImage5 from "../images/4mb-image.jpg?{sizes:[300,800]}";
+import responsiveImage6 from '../images/4mb-image.jpg?original';
 
 export default function Home() {
   return (
@@ -28,6 +27,8 @@ export default function Home() {
               loading="lazy"
           />
         </picture>
+          <div></div>
+          <img src={responsiveImage2} width="600px" />
       </main>
 
       <footer className={styles.footer}>
