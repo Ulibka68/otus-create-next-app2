@@ -2,9 +2,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import responsiveImage from "../images/4mb-image.jpg?sizes[]=300,sizes[]=600,sizes[]=1024";
 import responsiveImage2 from "../images/4mb-image.jpg?webp";
-// import responsiveImage3 from "../images/4mb-image.jpg?sizes[]=300,sizes[]=600&format=webp";
-// import responsiveImage4 from "../images/4mb-image.jpg?{sizes:[300,800], format: 'webp'}";
-import responsiveImage5 from "../images/4mb-image.jpg?{sizes:[300,800]}";
+import responsiveImage3 from "../images/4mb-image.jpg?sizes[]=310,sizes[]=610&format=webp";
+import responsiveImage4 from "../images/4mb-image.jpg?{sizes:[320,620], format: 'webp'}";
+import responsiveImage5 from "../images/4mb-image.jpg?{sizes:[320,620]}";
 import responsiveImage6 from '../images/4mb-image.jpg?original';
 
 export default function Home() {

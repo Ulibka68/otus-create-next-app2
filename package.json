@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mrroll/next-optimized-images": "^2.6.2",
     "next": "9.5.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
@@ -16,10 +17,10 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "jimp": "^0.16.1",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.6.2",
     "responsive-loader": "^2.2.0",
+    "sharp": "^0.26.2",
     "webp-loader": "^0.6.0"
   }
 }
