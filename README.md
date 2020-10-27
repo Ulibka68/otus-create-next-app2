@@ -1,3 +1,6 @@
+заменить пакет на 
+next-optimized-images-fork-by-ulibka
+
 Вариант 1:
 Кроме того, в вашей папке custom_typings (если есть) вы можете добавить новый файл import-png.d.ts:
 
